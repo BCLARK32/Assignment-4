@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang=eng>
+<head>
+<script type="text/javascript">
+   function myfunctionColor(blue)
+    {document.getElementById("b").style.backgroundColor="red;
+    }
+    </script>
+    <style type="text/css">
+    P{
+        color: black
+        font-size: 16
+        font-weight: bold
+        font-family: Times New Roman
+    }
+    </style>
+</head>
+<body>
+<img onmouseover="bigIMG(UAT)" onmouseout="normalIMG(UAT)"border"0"
+src=(https://786news.com/wp-content/uploads/2020/02/UAT1.jpg)
+<p>select start</p>
+<p>select end</p>
+<select id="start"onchange="end vanishes">
+</select>
+<select id="blank space"onchange="end reappears">
+</select>
+<select id="end"onchange="start vanishes">
+</select>
+<select id="blank space"onchange="start reappears">
+</select>
+</body>
+</html>
